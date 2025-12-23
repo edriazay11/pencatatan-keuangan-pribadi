@@ -1,0 +1,52 @@
+Sistem Pencatatan Keuangan Pribadi
+
+Sistem Pencatatan Keuangan Pribadi merupakan aplikasi web sederhana yang dibuat untuk mencatat dan mengelola data keuangan pribadi, meliputi pemasukan dan pengeluaran. 
+Aplikasi ini dikembangkan menggunakan PHP Native tanpa framework dengan tujuan agar pengembang memahami alur kerja aplikasi web dari dasar, mulai dari frontend, backend, hingga pengelolaan database.
+
+Tujuan Pembuatan Aplikasi:
+1. Melatih pemahaman pemrograman PHP Native tanpa framework.
+2. Menerapkan konsep CRUD (Create, Read, Update, Delete).
+3. Mengelola data keuangan pribadi secara terstruktur.
+4. Memahami integrasi antara PHP, MySQL, HTML, CSS, dan JavaScript.
+
+Fitur Aplikasi:
+Dashboard:
+- Menampilkan ringkasan pemasukan, pengeluaran, dan saldo akhir.
+- Menampilkan transaksi terbaru.
+- Filter data berdasarkan periode.
+
+Manajemen Pemasukan:
+- Menambah, mengedit, dan menghapus data pemasukan.
+- Pencarian data pemasukan.
+- Pagination.
+
+Manajemen Pengeluaran:
+- Menambah, mengedit, dan menghapus data pengeluaran.
+- Pencarian data pengeluaran.
+- Pagination.
+
+Laporan Keuangan:
+- Laporan berdasarkan kategori.
+- Laporan harian.
+- Grafik saldo.
+
+Teknologi yang Digunakan:
+- Backend: PHP Native
+- Database: MySQL
+- Frontend: HTML, CSS, JavaScript
+- Web Server: Apache (XAMPP)
+
+Langkah Instalasi:
+1. Install XAMPP dan jalankan Apache serta MySQL.
+2. Buat database dengan nama sistem_pencatatan_keuangan.
+3. Import file database.sql melalui phpMyAdmin.
+4. Sesuaikan konfigurasi database pada file config/koneksi.php.
+5. Akses aplikasi melalui browser dengan alamat http://localhost/Pencatatan_uang_pribadi/.
+
+Keamanan:
+- Menggunakan prepared statement.
+- Validasi input.
+- Perlindungan file sensitif menggunakan .htaccess.
+
+Aplikasi ini dibuat untuk keperluan pembelajaran dan tugas akademik.
+
